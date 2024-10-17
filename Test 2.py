@@ -30,7 +30,7 @@ def create_gui():
     root.geometry("400x300")  # Fenstergröße
 
     # Hintergrundbild laden und anzeigen
-    background_image = Image.open(r"C:\Users\Jan.Jochem\OneDrive - DUO-PLAST AG\Dokumente\Steckbrief ich\background.jpg")
+    background_image = Image.open(r"T:\Allgemeine Bilder\Vorlagen\background.jpg")
     background_photo = ImageTk.PhotoImage(background_image)  # Umwandeln in ein Tkinter-kompatibles Bild
 
     # Label für das Hintergrundbild
